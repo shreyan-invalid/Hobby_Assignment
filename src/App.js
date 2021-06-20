@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="app">
       <CarouselContainer/>
-      <Title title={"HOBBIES AND PROJECTS"}/>
+      <Title title={"HOBBIT"}/>
       <UploadHobby/>
       <CardShowcase/>
     </div>

@@ -18,7 +18,7 @@ function CarouselContainer() {
                 />
                 <Carousel.Caption>
                 <h3>Create Hobby</h3>
-                <p>Give time to your own hobby according to time.</p>
+                <p>Create a hobby. Make your hobby like a habbit.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={500}>
