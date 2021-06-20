@@ -1,0 +1,17 @@
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 100%;
+  color: #fff;
+  object-fit: fill;
+  font-size: 4em;
+}
+
+
+.item_image{
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}

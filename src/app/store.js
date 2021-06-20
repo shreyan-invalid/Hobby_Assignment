@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import HobbySlice from '../Slices/HobbySlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    hobby: HobbySlice,
   },
 });

@@ -1,0 +1,41 @@
+
+
+.uploadForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.uploadForm > input{
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.uploadForm > button{
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+#description{
+    width: 100%;
+    margin-bottom: 40px;
+    height: 400px;
+}
+
+.upload_edit:hover{
+    color: black;
+    transition: all 0.1s ease-in-out;
+}
+
+.uploadForm > button:hover{
+    background-color: rgb(197, 110, 255)
+}
+
+
+@media only screen and (max-height: 700px){
+    #description{
+        height: 300px;
+    }
+}

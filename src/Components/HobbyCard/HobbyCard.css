@@ -1,0 +1,51 @@
+.hobbyCard{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.1s ease-in;
+    background-color: rgb(201, 144, 255);
+    width: 40vw;
+    color: white;
+}
+
+.hobbyCard:hover{
+    padding: 15px;
+    transition: all 0.1s ease-out;
+}
+
+
+.hobbyCard_info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hobbyCard_functions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hobbyCard_description > p{
+    font-weight: 400;
+}
+
+.hobbyCard_functions_delete{
+    color: rgb(211, 0, 0);
+    transition: all 0.1s ease-in;
+}
+
+.hobbyCard_functions_delete:hover, .hobbyCard_functions_edit:hover{
+    padding: 2px;
+    transition: all 0.1s ease-out;
+}
+
+@media only screen and (max-width: 800px){
+    .hobbyCard{
+        width: 100vw;
+    }
+}

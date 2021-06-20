@@ -1,0 +1,27 @@
+.modalDelete_button:hover{
+  color: red;  
+  transition: all 0.1s ease-in-out;
+}
+
+.uploadForm{
+    display: flex;
+}
+
+.delete_confirmation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete_confirmation> button{
+    margin-left: 30px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.delete_confirmation> button:hover{
+    background-color: gray;
+    transition: all 0.1s ease-in-out;
+}

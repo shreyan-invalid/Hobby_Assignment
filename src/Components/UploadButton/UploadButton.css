@@ -1,0 +1,21 @@
+.uploadHobby{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.uploadHobby > button{
+   padding: 10px 40px 10px 40px;
+   font-size: 20px;
+   border-radius: 3px;
+   border: none;
+   background-color: black;
+   color: whitesmoke;
+   transition: all 0.2s ease-in;
+}
+
+.uploadHobby > button:hover{
+    background-color: rgb(214, 170, 255);
+    transition: all 0.1s ease-in-out;
+}
