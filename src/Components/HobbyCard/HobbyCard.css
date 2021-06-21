@@ -10,6 +10,18 @@
     color: white;
 }
 
+.hobbyCard_title{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hobbyCard_title_image{
+    margin-top: 10px;
+}
+.hobbyCard_title > h1 {
+    margin-left: 20px;
+}
+
 .hobbyCard:hover{
     padding: 15px;
     transition: all 0.1s ease-out;
@@ -28,6 +40,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.hobbyCard_description{
+    margin-top: 10px;
 }
 
 .hobbyCard_description > p{

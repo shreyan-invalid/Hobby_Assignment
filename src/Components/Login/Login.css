@@ -1,0 +1,22 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.login > button{
+    padding: 8px;
+    border: none;
+    background-color: rgb(148, 66, 255);
+    color: white;
+    font-weight: 600;
+    transition: all 0.1s ease-in;
+}
+
+.login > button:hover{
+    padding: 15px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(87, 87, 87, 0.5);
+}

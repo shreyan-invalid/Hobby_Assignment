@@ -1,6 +1,17 @@
 .cardShowcase{
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.cardShowcase__greetings{
+    padding: 20px;
+    text-align: center;
+}
+
+.cardShowcase__cards{
+    display: flex;
+    flex-wrap: wrap;
 }

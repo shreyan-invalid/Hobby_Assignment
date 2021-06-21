@@ -1,4 +1,8 @@
-
+.uploadHobby{
+    width: 100%;
+    align-items: center;
+    align-self: center;
+}
 
 .uploadForm{
     display: flex;

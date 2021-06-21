@@ -9,7 +9,7 @@ import EditIcon from '@material-ui/icons/Edit';
 import {v4 as uuid} from 'uuid';
 import {addHobby, editHobby} from '../../Slices/HobbySlice';
 import { useDispatch } from 'react-redux';
-import { DescriptionOutlined } from '@material-ui/icons';
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -41,7 +41,6 @@ export default function TransitionsModal({edit, currtitle, currdescription, id})
 
   const [title, updateTitle]= useState('');
   const [description, updateDesciption]= useState('');
-  console.log(currdescription)
 
   function handleUpload(e){
     e.preventDefault();
